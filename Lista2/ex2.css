@@ -1,0 +1,55 @@
+.primeiro{
+text-decoration: none;
+}
+
+.segundo{
+text-decoration: overline;
+}
+
+.segundo:active{
+    text-decoration: underline;
+}
+
+.segundo:hover{
+    text-decoration: line-through;
+}
+
+.terceiro{
+    color: orangered;
+    text-decoration: none;
+}
+
+.terceiro:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.quarto{
+    text-decoration: none white;
+    color: white;
+    background-color: black;
+    border: blue solid 1px;
+}
+
+.quarto:hover{
+    background-color: white;
+    color: black;
+    border: black dotted;
+}
+
+.quinto{
+        color: red;
+        text-decoration: none;
+}
+
+.quinto:visited{
+    text-decoration: italic bold orangered;
+}
+
+.quinto:hover{
+    text-decoration: underline;
+}
+
+.quinto:active{
+    color: yellow;
+}

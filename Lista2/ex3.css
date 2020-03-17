@@ -1,0 +1,11 @@
+.logo1:hover{
+    background-image: url(img/a2.png);
+    height: 60px;
+    width: 100px;
+}
+
+.logo2:hover{
+    background-image: url(img/m2.png);
+    height: 60px;
+    width: 100px;
+}
