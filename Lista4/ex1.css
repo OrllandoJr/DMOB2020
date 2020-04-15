@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 999px){
+.img{
+    position: relative;
+    width: 200px; 
+    height: 200px; 
+    float: left;
+ }
+
+ .txt{
+    position: relative;
+     width: 200px;
+     height: 200px;
+     float: left;
+ }
+}
+
+ @media screen and (max-width: 400px) {
+    .img{
+        position: relative;
+        width: 200px; 
+        height: 200px; 
+        float: left;
+     }
+    
+     .txt{
+        position: relative;
+         width: 200px;
+         height: 200px;
+     }
+ }

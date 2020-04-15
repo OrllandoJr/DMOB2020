@@ -1,0 +1,72 @@
+@media only screen and (min-width: 999px){
+.header {
+	background: #0000FF;
+	height: 100px;
+	width: 100%;
+}
+
+.nav {
+	background: #06069e;
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+
+.main {
+    background:  rgb(17, 94, 172); 
+    height: 300px;
+    width: 75%; 
+    float: left; 
+}
+
+.aside {
+    background: rgb(118, 100, 230);
+    height: 300px;
+    width: 25%; 
+    float: left;
+}
+
+.footer {
+    background:  #06069e;
+    width: 100%;
+    float: left;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+
+    .header {
+        background: #0000FF;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .nav {
+        background: #06069e;
+        height: 100px;
+        width: 100%;
+        float: left;
+    }
+    
+    .main {
+        background:  rgb(17, 94, 172); 
+        height: 300px;
+        width: 100%; 
+        float: left; 
+    }
+
+    .aside {
+        background: rgb(118, 100, 230);
+        height: 100px;
+        width: 100%; 
+        float: left;
+    }
+    
+    .footer {
+        background:  #06069e;
+        width: 100%;
+        float: left;
+    }
+
+}
